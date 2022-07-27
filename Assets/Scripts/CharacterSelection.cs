@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class CharacterSelection : MonoBehaviour
 {
 	public GameObject[] characters;
+	public TextMeshProUGUI Name;
 	public int selectedCharacter = 0;
 
 	public void NextCharacter()
@@ -11,6 +13,9 @@ public class CharacterSelection : MonoBehaviour
 		characters[selectedCharacter].SetActive(false);
 		selectedCharacter = (selectedCharacter + 1) % characters.Length;
 		characters[selectedCharacter].SetActive(true);
+		string Text = characters[selectedCharacter].ToString();
+		Text = Text.Replace("(UnityEngine.GameObject)","");
+		Name.text = "Selected: "+Text;
 	}
 
 	public void PreviousCharacter()
@@ -22,6 +27,9 @@ public class CharacterSelection : MonoBehaviour
 			selectedCharacter += characters.Length;
 		}
 		characters[selectedCharacter].SetActive(true);
+		string Text = characters[selectedCharacter].ToString();
+		Text = Text.Replace("(UnityEngine.GameObject)", "");
+		Name.text = "Selected: " + Text;
 	}
 
 	public void StartGame()
