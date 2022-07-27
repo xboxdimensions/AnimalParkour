@@ -89,6 +89,10 @@ public class Player : MonoBehaviour
         {
             Destroy(collision.gameObject);
         }
+        if (collision.gameObject.CompareTag("FireStarter"))
+        {
+            transform.position = new Vector3(-2, 1, 26);
+        }
     }
 
     // called when the player hits an enemy or falls off the level
