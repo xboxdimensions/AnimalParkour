@@ -11,19 +11,13 @@ public class Player : MonoBehaviour
     public float jumpForce;
     private int maxjumps = 0;
     private bool powerup = false;
-
-    public int score;
-
     private bool isGrounded;
-    public static int GetUnixTime()
-    {
-        return (int)(DateTime.UtcNow - new DateTime(1970, 1, 1)).TotalSeconds;
-    }
+
     void Update()
     {
         // get the horizontal and vertical inputs
-        float x = Input.GetAxis("Horizontal") * moveSpeed;
-        float z = Input.GetAxis("Vertical") * moveSpeed;
+        float x = Input.GetAxis("Horizontal")*moveSpeed;
+        float z = Input.GetAxis("Vertical")*moveSpeed;
         // set our velocity based on our inputs
         rig.velocity = new Vector3(x, rig.velocity.y, z);
 
@@ -52,11 +46,6 @@ public class Player : MonoBehaviour
             StaticClass.Lives--;
             transform.position = new Vector3(0, 0, 0);
         }
-        //if (1 == 1)
-        //{
-        //    moveSpeed -= 5.0f;
-        //    jumpForce -= 12.0f;
-        //}
     }
 
     // called when we collide with another object

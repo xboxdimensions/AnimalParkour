@@ -10,6 +10,5 @@ public static class StaticClass {
     public static int Lives { get; set; }
     public static int Mod { get; set; }
     public static int Time { get; set; }
-    public static UnityEngine.GameObject PlayerMesh { get; set; }
 
     }
