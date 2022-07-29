@@ -11,8 +11,9 @@ public class CubeCommands : MonoBehaviour
     {
         rend = GetComponent<Renderer>();
         rend.enabled = true;
-        Type = UnityEngine.Random.Range(0, StaticClass.MaxWords+1);
+        Type = UnityEngine.Random.Range(StaticClass.MinWords, StaticClass.MaxWords+1);
         rend.sharedMaterial = newMaterialRef[Type];
+        //Debug.Log(Type);
         
 
     }

@@ -15,12 +15,14 @@ public class UI : MonoBehaviour
 
     readonly int start = 0;
     public int time = 5;
+    public int MinWords = 0;
     public int MaxWords = 2;
     
 
     void Start() 
     { 
         StaticClass.MaxWords = MaxWords;
+        StaticClass.MinWords = MinWords;
         if (StaticClass.CrossSceneInformation == "Yugara") {
             string[] Animals = { "Juwanbin", "Kabul", "Wawal","Mirri","Juwehrr","Ngurun","Jawan",
             "Yarraman","Barrar","Dumbirrbi","Bulualum","Kubbi","Powai","Bui","Chibur","Garril" };
@@ -59,7 +61,12 @@ public class UI : MonoBehaviour
         StaticClass.Time = time;
         StaticClass.Mod = timeDiff % StaticClass.Time;
         
-
+        if (StaticClass.walknow == true)
+        {
+            scoreText.text = "Walk Forward";
+        }
+        else
+        {
         if (StaticClass.Mod == 0
             && timeDiff != 0)
             {        
@@ -72,6 +79,8 @@ public class UI : MonoBehaviour
         {
             scoreText.text = "Wait for the word!";
         }
+        }
+
     }
 
 

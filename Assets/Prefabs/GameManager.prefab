@@ -78,7 +78,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterPrefabs:
   - {fileID: 8419042471761220, guid: e54e0ad7a0e356148aa8852bc6daab8c, type: 3}
-  - {fileID: 1918157967267382447, guid: bcc18b87463ef7d43a9aaabd86873e54, type: 3}
+  - {fileID: 6845521358727304546, guid: bcc18b87463ef7d43a9aaabd86873e54, type: 3}
   - {fileID: 4209235962623583214, guid: d90506370d744674cb3680082051bf03, type: 3}
   - {fileID: 5755313875230343667, guid: 8fb441d4ac1be2f47b390c4842961a12, type: 3}
   - {fileID: 4985022980899738138, guid: da15cde267068d4469aec5c0dc872d38, type: 3}
