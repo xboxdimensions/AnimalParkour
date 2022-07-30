@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 6910511376473709613}
   - component: {fileID: 2298157807934756523}
   - component: {fileID: 8093152022445148211}
-  - component: {fileID: 4179886650632139273}
   - component: {fileID: 6758472161748142220}
+  - component: {fileID: 7649666078651188330}
   m_Layer: 0
   m_Name: Remux
   m_TagString: Player
@@ -66,21 +66,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &4179886650632139273
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5755313875230343667}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df25b48c9e31937458444861a705fae4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 2
-  rig: {fileID: 8093152022445148211}
-  jumpForce: 5
 --- !u!95 &6758472161748142220
 Animator:
   serializedVersion: 4
@@ -101,6 +86,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7649666078651188330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5755313875230343667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f976cdf404450a24da29df0e35c4e04d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 1.6
+  rig: {fileID: 8093152022445148211}
+  jumpForce: 5
 --- !u!1001 &5746469283036467908
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -122,7 +122,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c61cfd4907cf3e341977dfe628d88967, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c61cfd4907cf3e341977dfe628d88967, type: 3}
       propertyPath: m_LocalRotation.w
