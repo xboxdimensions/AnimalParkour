@@ -15,8 +15,8 @@ public class UI : MonoBehaviour
 
     readonly int start = 0;
     public int time = 5;
-    public int MinWords = 0;
-    public int MaxWords = 2;
+    public int MinWords;
+    public int MaxWords;
     
 
     void Start() 
@@ -70,7 +70,7 @@ public class UI : MonoBehaviour
         if (StaticClass.Mod == 0
             && timeDiff != 0)
             {        
-            StaticClass.ID = UnityEngine.Random.Range(0, StaticClass.MaxWords+1);
+            StaticClass.ID = UnityEngine.Random.Range(StaticClass.MinWords, StaticClass.MaxWords+1);
             string word = Translated[StaticClass.ID];
             scoreText.text = word.ToString();
         }

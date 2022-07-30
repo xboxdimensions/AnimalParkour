@@ -7,11 +7,14 @@ public class CubeCommands : MonoBehaviour
     public Material[] newMaterialRef;
     Renderer rend;
     private int Type;
+    UI words;
     void Start()
     {
+        GameObject WordMaker = GameObject.Find("WordMaker");
+        words = WordMaker.GetComponent<UI>();
         rend = GetComponent<Renderer>();
         rend.enabled = true;
-        Type = UnityEngine.Random.Range(StaticClass.MinWords, StaticClass.MaxWords+1);
+        Type = UnityEngine.Random.Range(words.MinWords, words.MaxWords+1);
         rend.sharedMaterial = newMaterialRef[Type];
         //Debug.Log(Type);
         

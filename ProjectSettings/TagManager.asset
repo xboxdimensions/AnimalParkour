@@ -8,6 +8,7 @@ TagManager:
   - Shield
   - FireStarter
   - Platform
+  - WordMaker
   layers:
   - Default
   - TransparentFX
