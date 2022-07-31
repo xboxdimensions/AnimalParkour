@@ -14,9 +14,13 @@ public class Menu : MonoBehaviour
     {
         Application.Quit();
     }
-    public void OnCharButton()
+    public void OnInfoButton()
     {
-        SceneManager.LoadScene("NewCharSelection");
+        SceneManager.LoadScene("Info");
+    }
+    public void OnHelpButton()
+    {
+        SceneManager.LoadScene("Settings");
     }
     public void Return()
     {

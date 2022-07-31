@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Index.unity
     guid: a1ac73935a858c5429afdc41577141e2
   - enabled: 1
+    path: Assets/Scenes/Info.unity
+    guid: 5c1cb6b627387364f8ff2d9fd69d44da
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: 0494391f86cf9624f88626c7cf6e462c
+  - enabled: 1
     path: Assets/Scenes/LevelSelection.unity
     guid: 9d8860a3e7df55147ace606844115de5
   - enabled: 1
@@ -22,10 +28,13 @@ EditorBuildSettings:
     guid: 0aeb6f55f2209574ab526f5ab17623cd
   - enabled: 1
     path: Assets/Scenes/Level_3.unity
+    guid: c2d81fba694abc44582df9e005907a69
+  - enabled: 1
+    path: Assets/Scenes/Level_4.unity
+    guid: 3731461c6839428439acb20ebf3e325b
+  - enabled: 1
+    path: Assets/Scenes/Level_5.unity
     guid: 6a5fcbea94f255540905ced2b441fa1b
-  - enabled: 0
-    path: Assets/Scenes/CharSelect.unity
-    guid: 8f864a9733e4ba2459cccdbe9faf72dd
   - enabled: 1
     path: Assets/Scenes/YouLose.unity
     guid: 3386903c9e97bd74fbe4ee2f8b0d25fc

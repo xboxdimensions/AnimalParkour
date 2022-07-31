@@ -72,7 +72,7 @@ public class Player_Crewmate : MonoBehaviour
         {
             moveSpeed += 4.0f;
             jumpForce += 6.0f;
-            maxjumps = 5;
+            maxjumps = 3;
             powerup = true;
             Destroy(collision.gameObject);
         }
