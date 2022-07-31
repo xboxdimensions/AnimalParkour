@@ -83,6 +83,7 @@ MonoBehaviour:
   - {fileID: 5755313875230343667, guid: 8fb441d4ac1be2f47b390c4842961a12, type: 3}
   - {fileID: 4985022980899738138, guid: da15cde267068d4469aec5c0dc872d38, type: 3}
   - {fileID: 7577069614600997769, guid: 195882dbd542dd249a9a4c26b4f50747, type: 3}
+  - {fileID: 4505962760017050414, guid: 6d8da93dd4f33b348a5f19437cefd2b7, type: 3}
   spawnPoint: {fileID: 3777445636846073722}
 --- !u!1 &3418499211815763897
 GameObject:
