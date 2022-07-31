@@ -97,7 +97,7 @@ public class Player : MonoBehaviour
         {
             platform = GameObject.FindGameObjectWithTag("Platform");
             platform.GetComponent<BoxCollider>().enabled = true;
-            StaticClass.walknow = true;
+            StaticClass.Walknow = true;
 
             // transform.position = new Vector3(-2, 1, 26);
         }

@@ -7,11 +7,15 @@ public class CharacterSelection : MonoBehaviour
 	public GameObject[] characters;
 	public TextMeshProUGUI Name;
 	public int selectedCharacter = 0;
-
-	public void NextCharacter()
+    public void Start()
+    {
+		StaticClass.ActualMax = characters.Length;
+		
+    }
+    public void NextCharacter()
 	{
 		characters[selectedCharacter].SetActive(false);
-		selectedCharacter = (selectedCharacter + 1) % characters.Length;
+		selectedCharacter = (selectedCharacter + 1) % StaticClass.Maxcharselect;
 		characters[selectedCharacter].SetActive(true);
 		string Text = characters[selectedCharacter].ToString();
 		Text = Text.Replace("(UnityEngine.GameObject)","");
@@ -24,7 +28,7 @@ public class CharacterSelection : MonoBehaviour
 		selectedCharacter--;
 		if (selectedCharacter < 0)
 		{
-			selectedCharacter += characters.Length;
+			selectedCharacter += StaticClass.Maxcharselect;
 		}
 		characters[selectedCharacter].SetActive(true);
 		string Text = characters[selectedCharacter].ToString();
@@ -35,6 +39,6 @@ public class CharacterSelection : MonoBehaviour
 	public void StartGame()
 	{
 		PlayerPrefs.SetInt("selectedCharacter", selectedCharacter);
-		SceneManager.LoadScene(3, LoadSceneMode.Single);
+		SceneManager.LoadScene("Level_1", LoadSceneMode.Single);
 	}
 }

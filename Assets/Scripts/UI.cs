@@ -61,7 +61,7 @@ public class UI : MonoBehaviour
         StaticClass.Time = time;
         StaticClass.Mod = timeDiff % StaticClass.Time;
         
-        if (StaticClass.walknow == true)
+        if (StaticClass.Walknow == true)
         {
             scoreText.text = "Walk Forward";
         }

@@ -5,9 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
+    public void Start()
+    {
+        if (StaticClass.Maxcharselect == 0)
+        {
+            StaticClass.Maxcharselect = 2;
+        }
+    }
     public void OnPlayButton ()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("LevelSelection");
     }
 
     public void OnQuitButton ()
@@ -16,14 +23,18 @@ public class Menu : MonoBehaviour
     }
     public void OnInfoButton()
     {
-        SceneManager.LoadScene("Info");
-    }
-    public void OnHelpButton()
-    {
-        SceneManager.LoadScene("Settings");
+        SceneManager.LoadScene("Info_1");
     }
     public void Return()
     {
         SceneManager.LoadScene(0);
+    }
+    public void Next()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+    public void Back()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 }

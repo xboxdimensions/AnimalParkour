@@ -8,23 +8,23 @@ public class Selection : MonoBehaviour
     public void OnYugaraButton ()
     {   
         StaticClass.CrossSceneInformation = "Yugara";
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("NewCharSelection");
     }
 
     public void OnYugurabulButton ()
     {
         StaticClass.CrossSceneInformation = "Yugarabul";
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("NewCharSelection");
     }
     public void OnYugambehButton ()
     {
         StaticClass.CrossSceneInformation = "Yugambeh";
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("NewCharSelection");
     }
     public void OnTurubulButton ()
     {
         StaticClass.CrossSceneInformation = "Turubul";
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("NewCharSelection");
     }
     public void OnBackButton()
     {
