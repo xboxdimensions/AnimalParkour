@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
     private int maxjumps = 0;
     private bool powerup = false;
     private bool isGrounded = true;
+    private bool onpressed = false;
     private GameObject platform;
 
     void Start()

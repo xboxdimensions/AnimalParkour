@@ -36,7 +36,7 @@ public class EndFlag : MonoBehaviour
                     StaticClass.Maxcharselect = 7;
                 }
             }
-            if (lastLevel == true) { SceneManager.LoadScene("Yay"); }
+            if (lastLevel == true) { SceneManager.LoadScene("Yay");StaticClass.Walknow = false; }
             else { SceneManager.LoadScene(nextSceneName); }
         }
     }

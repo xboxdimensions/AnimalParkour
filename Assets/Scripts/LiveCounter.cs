@@ -12,14 +12,22 @@ public class LiveCounter : MonoBehaviour
     void Start()
     {
     StaticClass.Lives = MaxLives;
+        Lives.color = Color.green;
     
     }
 
     // Update is called once per frame
     void Update()
-    {
-        Lives.text = "Lives: " + StaticClass.Lives.ToString();
-        if (StaticClass.Lives <= 0)
+    {   Lives.text = "Lives: " + StaticClass.Lives.ToString();
+        if (StaticClass.Lives == 2)
+        {
+            Lives.color = new Color(255, 132, 0,1);
+        }
+        else if (StaticClass.Lives == 1)
+        {
+            Lives.color = new Color(255, 0, 0, 1);
+        }
+        else if (StaticClass.Lives <= 0)
         {
             SceneManager.LoadScene("YouLose");
         }
