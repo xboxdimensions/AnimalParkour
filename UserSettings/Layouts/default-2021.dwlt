@@ -122,7 +122,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 94
+=======
+  controlID: 18
+>>>>>>> d3497f8e48d9d405fa73f81cb72a8c0fdf5d9ce2
 =======
   controlID: 18
 >>>>>>> d3497f8e48d9d405fa73f81cb72a8c0fdf5d9ce2
@@ -159,7 +163,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 50
+=======
+  controlID: 19
+>>>>>>> d3497f8e48d9d405fa73f81cb72a8c0fdf5d9ce2
 =======
   controlID: 19
 >>>>>>> d3497f8e48d9d405fa73f81cb72a8c0fdf5d9ce2
@@ -196,7 +204,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 41
+=======
+  controlID: 20
+>>>>>>> d3497f8e48d9d405fa73f81cb72a8c0fdf5d9ce2
 =======
   controlID: 20
 >>>>>>> d3497f8e48d9d405fa73f81cb72a8c0fdf5d9ce2
@@ -444,7 +456,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_ExpandedIDs: c2dcfeff02ddfeffacddfeffb6ddfeff58dffeff2ce0feff28e1feff08e3fefface3feff5cf5feff6ef5feff82f5feff98f5feffaef5feffc2f5feffccf5feffd6f5feff7200ffff5a29ffff582cffffa62effff9a2ffffffc31ffffd033ffffa236ffff5c49ffff825bffff1472ffffe673ffff3c74ffff9274ffff4675ffffca75ffffd676ffff2e77ffff5a77ffffa678ffff4479ffffb67dffff347fffff0881ffff0a81ffff9a81fffff681fffff881ffffa494ffff94a7ffffb0b9ffff90cfffff3ee2ffff86e2ffff08faffff36fbffff444e000014890000da890000
+=======
+      m_ExpandedIDs: 76f9ffff36fbffff324e0000
+>>>>>>> d3497f8e48d9d405fa73f81cb72a8c0fdf5d9ce2
 =======
       m_ExpandedIDs: 76f9ffff36fbffff324e0000
 >>>>>>> d3497f8e48d9d405fa73f81cb72a8c0fdf5d9ce2
@@ -568,9 +584,15 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       snapOffset: {x: 67.5, y: -164}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 2
+=======
+      snapOffset: {x: 67.5, y: 86}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+>>>>>>> d3497f8e48d9d405fa73f81cb72a8c0fdf5d9ce2
 =======
       snapOffset: {x: 67.5, y: 86}
       snapOffsetDelta: {x: 0, y: 0}
@@ -723,9 +745,15 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 487.97733, y: 271.9827, z: 274.33118}
     speed: 2
     m_Value: {x: 487.97733, y: 271.9827, z: 274.33118}
+=======
+    m_Target: {x: 380.01437, y: 201.67213, z: 1.571851}
+    speed: 2
+    m_Value: {x: 389.1978, y: 200.12376, z: 1.6714267}
+>>>>>>> d3497f8e48d9d405fa73f81cb72a8c0fdf5d9ce2
 =======
     m_Target: {x: 380.01437, y: 201.67213, z: 1.571851}
     speed: 2
@@ -790,6 +818,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -0.0026887269, y: 0.036894884, z: 0.00009913758, w: 0.9993169}
     speed: 2
     m_Value: {x: -0.0026887234, y: 0.036894836, z: 0.00009913745, w: 0.99931556}
@@ -797,6 +826,15 @@ MonoBehaviour:
     m_Target: 469.17593
     speed: 2
     m_Value: 469.17593
+=======
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
+  m_Size:
+    m_Target: 231.23845
+    speed: 2
+    m_Value: 221.2808
+>>>>>>> d3497f8e48d9d405fa73f81cb72a8c0fdf5d9ce2
 =======
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
@@ -1045,6 +1083,9 @@ MonoBehaviour:
     m_ExpandedIDs: 00000000844d0000864d0000884d000000ca9a3b
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d3497f8e48d9d405fa73f81cb72a8c0fdf5d9ce2
+=======
 >>>>>>> d3497f8e48d9d405fa73f81cb72a8c0fdf5d9ce2
 =======
 >>>>>>> d3497f8e48d9d405fa73f81cb72a8c0fdf5d9ce2
@@ -1080,7 +1121,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 000000008a4d00008c4d00008e4d0000
+=======
+    m_ExpandedIDs: 00000000844d0000864d0000884d0000
+>>>>>>> d3497f8e48d9d405fa73f81cb72a8c0fdf5d9ce2
 =======
     m_ExpandedIDs: 00000000844d0000864d0000884d0000
 >>>>>>> d3497f8e48d9d405fa73f81cb72a8c0fdf5d9ce2
